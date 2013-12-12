@@ -3,6 +3,24 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
+# development:
+#   adapter: postgresql
+#   database: cha_de_bebe_development
+#   host: localhost
+#   username: postgres
+#   password:
+
+# test:
+#   adapter: postgresql
+#   database: cha_de_bebe_test
+#   host: localhost
+
+# production:
+#   adapter:  postgresql
+#   database: cha_de_bebe_production
+#   host:     localhost
+
+
 development:
   adapter: sqlite3
   database: db/development.sqlite3
